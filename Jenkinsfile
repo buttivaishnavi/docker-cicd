@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "vaishnavibutti/flask-demo"      // ✅ Replace with your Docker Hub username
+        DOCKER_IMAGE = "160122737074/flask-demo"      // ✅ Replace with your Docker Hub username
         IMAGE_TAG = "latest"
     }
 
