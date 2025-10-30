@@ -5,13 +5,13 @@ pipeline {
 
         stage('Checkout Source') {
             steps {
-                git branch: 'main', url: 'https://github.com/<your_username>/<your_repo>.git'
+                git branch: 'main', url: 'https://github.com/buttivaishnavi/docker-cicd.git'
             }
         }
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t <your_dockerhub_username>/flask-demo:latest .'
+                bat 'docker build -t 160122737074/flask-demo:latest .'
             }
         }
 
